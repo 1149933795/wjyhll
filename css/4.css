@@ -1,0 +1,52 @@
+/**/
+.editor-pick .title {
+    width: 100%;
+    height: 38px;
+    margin-bottom: 40px;
+    background: url(../img/editor-pick.png) no-repeat center/266px 38px, 
+    url(../img/title-line.png) no-repeat bottom;
+}
+
+.editor-pick-list {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+}
+
+.bottom-dir {
+    position: relative;
+    width: 100%;
+    height: 57px;
+    margin-top: 30px;
+    background: url(../img/editor-pick-logo.png) no-repeat center/128px 57px, 
+    url(../img/bottom-line.png) no-repeat 100%/100%;
+}
+.bottom-dir .prev {
+    margin-left: -64px;
+}
+.bottom-dir .prev, .bottom-dir .next {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 60px;
+    height: 100%;
+}
+.bottom-dir .prev .icon-prev, .bottom-dir .next .icon-next {
+    position: absolute;
+    left: 15px;
+    top: 17px;
+    font-size: 21px;
+    color: #000;
+}
+.bottom-dir .next {
+    margin-left: 4px;
+}
+.bottom-dir .next .icon-next {
+    left: 23px;
+}
+.icon-jiantouzuo:before {
+    content: "\e634";
+}
+.icon-jiantouyou:before {
+    content: "\e61c";
+}
